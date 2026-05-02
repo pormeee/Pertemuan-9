@@ -114,7 +114,7 @@ npx expo start
 ## 🎬 Demo
 
 Video demo aplikasi dapat dilihat pada:
-👉 (tambahkan link video kamu di sini)
+👉 ([link gdrive](https://drive.google.com/drive/folders/1-K52jQUW-o7rKHIUXq3BxkCGv3V37FpB))
 
 ---
 
