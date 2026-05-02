@@ -17,7 +17,7 @@ export function AuthProvider({ children }) {
 
       if (u) {
         try {
-          // 🔥 Refresh token supaya custom claim kebaca
+          // Refresh token supaya custom claim kebaca
           await u.getIdToken(true);
 
           const tokenResult = await u.getIdTokenResult();
