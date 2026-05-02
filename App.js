@@ -39,7 +39,6 @@ function Root() {
   useEffect(() => {
     const checkBiometric = async () => {
 
-      // ❌ kalau belum login → jangan panggil Face ID
       if (!user) {
         setChecked(true);
         return;
@@ -64,10 +63,8 @@ function Root() {
     checkBiometric();
   }, [user]);
 
-  // ⛔ tahan sampai selesai check
   if (loading || !checked) return null;
 
-  // 🔐 kalau sudah login tapi belum unlock → tahan
   if (user && !unlocked) {
     return null;
   }
